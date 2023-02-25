@@ -1,0 +1,18 @@
+import java.util.*;
+
+public class Solution {
+
+	public static void main(String[] args) {
+		Scanner sca = new Scanner(System.in);
+		
+		int q = sca.nextInt();
+		for (int i = 0; i < q; i++) {
+			int a = sca.nextInt();
+			int b = sca.nextInt();
+			int n = sca.nextInt(); // Number of series
+		}
+		
+		sca.close();
+	}
+
+}

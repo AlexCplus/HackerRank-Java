@@ -1,0 +1,27 @@
+import java.util.*;
+import java.math.*;
+
+public class Solution {
+
+	public static void main(String[] args) {
+		Scanner sca = new Scanner(System.in);
+		
+		int q = sca.nextInt();
+		for (int i = 0; i < q; i++) {
+			int a = sca.nextInt();
+			int b = sca.nextInt();
+			int n = sca.nextInt(); // Number of series
+			
+			double start = 0;
+			
+			for (int j = 0; j < n; j++) {
+				start += (a + Math.pow(2, j) * b);
+				System.out.print(start);
+			}
+			System.out.print("\n");
+		}
+		
+		sca.close();
+	}
+
+}

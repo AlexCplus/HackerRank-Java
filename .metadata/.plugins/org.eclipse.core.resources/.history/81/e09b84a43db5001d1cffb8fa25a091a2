@@ -1,0 +1,19 @@
+import java.util.*;
+import java.io.*;
+
+public class Solution {
+
+	public static void main(String[] args) {
+		InputStreamReader input = new InputStreamReader(System.in);
+		BufferedReader bufferedreader = new BufferedReader(input);
+	
+		try {
+			while (bufferedreader.readLine() != null) {
+				
+			}
+		}catch(Exception e) {
+			
+		}
+	}
+
+}

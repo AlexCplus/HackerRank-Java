@@ -1,0 +1,25 @@
+import java.util.*;
+
+public class Solution {
+
+	public static void main(String[] args) {
+		Scanner sca = new Scanner(System.in);
+		
+		int T = sca.nextInt(); // Denota el numero de casos
+		
+		for (int i = 0; i < T; i++) {
+			try {
+				long l = sca.nextLong();
+				System.out.println(l + " can be fitted in:");
+				if (l >= -128 && l <= 127) {
+					System.out.println("* byte");
+				}else if(l >= -32768 && l <= 32767 ) {
+					System.out.println("* byte");
+				}
+			}
+		}
+		
+		
+	}
+
+}

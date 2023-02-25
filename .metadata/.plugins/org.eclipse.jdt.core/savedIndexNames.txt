@@ -1,0 +1,12 @@
+INDEX VERSION 1.131+C:\Users\Alex\Music\HackerRank\Java\.metadata\.plugins\org.eclipse.jdt.core
+2449367021.index
+161276490.index
+1865797976.index
+543707447.index
+1172596367.index
+88026236.index
+1255528077.index
+1961013662.index
+2220241419.index
+3017524578.index
+2593509727.index

@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class Solution {
+
+	public static void main(String[] args) {
+		Scanner sca = new Scanner(System.in);
+		System.out.println("================================");
+		char[] stringformat = new char[15];
+		char[] integerformat = new char[3];
+		for (int i = 0; i < 3; i++) {
+			String cadena = sca.next();
+			int x = sca.nextInt();
+			
+			stringformat = cadena.toCharArray();
+			System.out.println(stringformat.toString() + "cadena");
+		}
+	}
+	
+}

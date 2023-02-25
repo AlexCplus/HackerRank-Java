@@ -1,0 +1,33 @@
+import java.util.*;
+
+public class Solution {
+
+	public static void main(String[] args) {
+		Scanner sca = new Scanner(System.in);
+		System.out.println("================================");
+		char[] stringformat = new char[15];
+		char[] integerformat = new char[3];
+		for (int i = 0; i < 3; i++) {
+			String cadena = sca.next();
+			int x = sca.nextInt();
+			
+			for (int j = 0; j < cadena.length(); j++) {
+				stringformat[j] = cadena.charAt(j);
+			}
+			
+			for (int j = 0; j < Integer.toString(x).length(); j++) {
+				int digit = x % 10;
+				x = x % 10;
+				
+				if(digit != 0) {
+					integerformat[j] = (char)digit;
+				}else {
+					integerformat[j] = '0';
+				}
+			}
+			System.out.print(stringformat);
+			System.out.println(x);
+		}
+	}
+	
+}

@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+	public static void main(String[] args) throws IOException {
+		InputStreamReader inputstream = new InputStreamReader(System.in);
+		BufferedReader bufferedreader = new BufferedReader(inputstream);
+		
+		try {
+			int N = Integer.parseInt(bufferedreader.readLine());
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+}
